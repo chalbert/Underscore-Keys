@@ -35,6 +35,7 @@ define(['libs/vendor/underscore/underscore'], function(_){
 
     //| # Return true if the key argument correspond to the name of a key.
     isKey: function(key){
+      if (key.length === 1) return true;
       if (_.keys(keyMap).indexOf(key) !== -1) return true;
     },
 
