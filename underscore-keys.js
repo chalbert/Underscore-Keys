@@ -20,8 +20,7 @@ define(['libs/vendor/underscore/underscore'], function(_){
     right: 39,
     down: 40,
     insert: 45,
-    'delete': 46,
-    slash: 191
+    'delete': 46
   };
 
   //| f1 to f12
