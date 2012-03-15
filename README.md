@@ -26,7 +26,7 @@ Return the keycode from the name of the key.
 Return the name of the key from the keycode.
 
     _.getKey(27); // 'escape'
-    _.getKey(54); // 6
+    _.getKey(54); // '6'
     
 ### Supported special keys
 
